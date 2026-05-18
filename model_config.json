@@ -1,0 +1,8 @@
+{
+    "model_name": "pneumonia_densenet121_model7",
+    "threshold": 0.28,
+    "architecture": "DenseNet121",
+    "false_negatives": 0,
+    "false_positives": 120,
+    "notes": "Threshold set to 0.28 \u2014 achieves zero false negatives. Fine-tuned from model 6 with all layers unfrozen at lr=0.00001"
+}
